@@ -1,0 +1,14 @@
+{
+  "name": "aurora-clock",
+  "repo": "component/aurora-clock",
+  "description": "Aurora clock theme",
+  "version": "0.0.1",
+  "keywords": ["aurora", "theme", "clock"],
+  "dependencies": {},
+  "development": {
+    "code42day/clock": "*"
+  },
+  "styles": [
+    "style.css"
+  ]
+}

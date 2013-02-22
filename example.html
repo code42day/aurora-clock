@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Clock</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="build/build.css" type="text/css">
+    <style>
+      body {
+        font: 14px "Helvetica Neue", Helvetica, Arial;
+        padding: 80px;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Clock</h1>
+    <script src="build/build.js"></script>
+    <script>
+      var Clock = require('code42day-clock');
+      var clock = new Clock;
+      clock.select({
+        hour: 10,
+        minute: 15
+      });
+      document.body.appendChild(clock.el);
+    </script>
+  </body>
+</html>
