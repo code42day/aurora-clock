@@ -7,8 +7,6 @@
 
 ## Installation
 
-    $ component install code42day/aurora-clock
-
 # License
 
   MIT
